@@ -1,10 +1,10 @@
 package com.arraylist.example;
 
-import java.util.LinkedList;
+import java.util.*;
 
-public class ArrayList {
+public class ArrayListExample {
 	public static void main(String[] args) {
-		LinkedList<Integer> list=new LinkedList<Integer>();
+		ArrayList<Integer> list=new ArrayList<Integer>();
 		list.add(10);
 		list.add(20);
 		list.add(30);
